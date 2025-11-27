@@ -2,257 +2,113 @@
   "hang_gliders": [
     {
       "brand": "Wills Wing",
-      "models": [
-        {
-          "name": "Falcon",
-          "category": "Iniciación / Escuela / Recreacional",
-          "versions": [
-            { "version": "Falcon 4 145", "glider_weight_kg": 22, "pilot_weight_range_kg": [54, 79] },
-            { "version": "Falcon 4 170", "glider_weight_kg": 24, "pilot_weight_range_kg": [68, 113] }
-          ]
-        },
-        {
-          "name": "Sport 3",
-          "category": "Intermedio / Recreacional",
-          "versions": [
-            { "version": "Sport 3 135", "glider_weight_kg": 30, "pilot_weight_range_kg": [61, 88] },
-            { "version": "Sport 3 155", "glider_weight_kg": 32, "pilot_weight_range_kg": [70, 113] }
-          ]
-        },
-        {
-          "name": "U2",
-          "category": "Intermedio-alto / Alto rendimiento",
-          "versions": [
-            { "version": "U2 145", "size": "145", "comments": "versión ligera, buen rendimiento intermedio-alto" },
-            { "version": "U2 160", "size": "160", "comments": "talla más grande" }
-          ]
-        },
-        {
-          "name": "T2 / T2C",
-          "category": "Competición / Alto rendimiento",
-          "versions": [
-            { "version": "T2/T2C", "comments": "glider de competición" }
-          ]
-        },
-        {
-          "name": "T3",
-          "category": "Competición / Alto rendimiento",
-          "versions": [
-            { "version": "T3 135", "size": "135" },
-            { "version": "T3 144", "size": "144" },
-            { "version": "T3 154", "size": "154" }
-          ]
-        },
-        {
-          "name": "Eagle",
-          "category": "Intermedio",
-          "versions": [
-            {
-              "version": "Eagle 145",
-              "wing_area_m2": 13.4,
-              "pilot_weight_range_kg": [57, null],
-              "aspect_ratio": 6.2
-            },
-            {
-              "version": "Eagle 164",
-              "wing_area_m2": 15.3,
-              "pilot_weight_range_kg": [68, null],
-              "aspect_ratio": 6.6
-            },
-            {
-              "version": "Eagle 180",
-              "wing_area_m2": 16.7,
-              "pilot_weight_range_kg": [79, null],
-              "aspect_ratio": 6.1
-            }
-          ]
-        },
-        {
-          "name": "Condor",
-          "category": "Entrenamiento / escuela",
-          "versions": [
-            {
-              "version": "Condor 330",
-              "wing_area_m2": 30.7,
-              "glider_weight_kg": 24,
-              "pilot_weight_range_kg": [45, 120],
-              "stall_speed_kmh": 21,
-              "max_speed_kmh": 51,
-              "aspect_ratio": 5.0
-            }
-          ]
-        }
-      ]
+      "model": {
+        "name": "Falcon 4 170",
+        "category": "Iniciación / Escuela / Recreacional",
+        "glider_weight_kg": 24,
+        "pilot_weight_range_kg": [68, 113],
+        "image_filename": "willswing_falcon4_170.jpg",
+        "image_url": "https://willswing.org/wp-content/uploads/2025/01/Falcon-4.jpg"
+      }
     },
     {
       "brand": "Tecma Sport",
-      "models": [
-        {
-          "name": "Mambo",
-          "category": "Recreacional / recreo / escuela",
-          "versions": [
-            {
-              "version": "Mambo 135",
-              "wing_area_m2": 13.5,
-              "glider_weight_kg": 23.5,
-              "pilot_weight_range_kg": [45, null],
-              "aspect_ratio": 6.7
-            },
-            {
-              "version": "Mambo 150",
-              "wing_area_m2": 15.0,
-              "glider_weight_kg": 27,
-              "pilot_weight_range_kg": [60, null],
-              "aspect_ratio": 6.7
-            },
-            {
-              "version": "Mambo 160",
-              "wing_area_m2": 16.0,
-              "glider_weight_kg": 28.5,
-              "pilot_weight_range_kg": [80, null],
-              "aspect_ratio": 6.7
-            }
-          ]
-        }
-      ]
+      "model": {
+        "name": "Mambo 135",
+        "category": "Recreacional / Escuela",
+        "wing_area_m2": 13.5,
+        "glider_weight_kg": 23.5,
+        "pilot_weight_range_kg": [45, null],
+        "aspect_ratio": 6.7,
+        "image_filename": "tecma_mambo_135.jpg",
+        "image_url": "https://www.delta-club-82.com/bible/photos_ailes/mambo_id2.jpg"
+      }
     },
     {
       "brand": "Icaro 2000",
-      "models": [
-        {
-          "name": "Alto",
-          "category": "Intermedio-avanzado / competición ligera",
-          "versions": [
-            {
-              "version": "Alto S",
-              "wing_area_m2": 12.60,
-              "span_m": 9.40,
-              "glider_weight_kg": 27,
-              "pilot_weight_range_kg": [50, 75],
-              "aspect_ratio": 7.01,
-              "certification": "DHV 3"
-            },
-            {
-              "version": "Alto M",
-              "wing_area_m2": 13.77,
-              "span_m": 10.06,
-              "glider_weight_kg": 30,
-              "pilot_weight_range_kg": [70, 90],
-              "aspect_ratio": 7.35,
-              "certification": "DHV 3"
-            },
-            {
-              "version": "Alto L",
-              "wing_area_m2": 14.88,
-              "span_m": 10.48,
-              "glider_weight_kg": 32,
-              "pilot_weight_range_kg": [85, 110],
-              "aspect_ratio": 7.38,
-              "certification": "DHV 3"
-            }
-          ]
-        }
-      ]
+      "model": {
+        "name": "Alto M",
+        "category": "Intermedio-avanzado",
+        "wing_area_m2": 13.77,
+        "span_m": 10.06,
+        "glider_weight_kg": 30,
+        "pilot_weight_range_kg": [70, 90],
+        "aspect_ratio": 7.35,
+        "certification": "DHV 3",
+        "image_filename": "icaro_alto_m.jpg",
+        "image_url": "https://www.icaro2000.com/Products/Hanggliders/Alto/Action/Alto-01.jpg"
+      }
     },
     {
-      "brand": "Moyes / Icaro (Moyes Italia)",
-      "models": [
-        {
-          "name": "Missile",
-          "category": "Competición / Intermedio-alto",
-          "versions": [
-            {
-              "version": "Missile 170 GT",
-              "wing_area_m2": 15.8,
-              "glider_weight_kg": 32,
-              "pilot_weight_range_kg": [57, 109]
-            },
-            {
-              "version": "Missile 180",
-              "wing_area_m2": 16.72,
-              "glider_weight_kg": 34,
-              "pilot_weight_range_kg": [59, 109]
-            },
-            {
-              "version": "Missile 190 GT",
-              "wing_area_m2": 17.65,
-              "glider_weight_kg": 34,
-              "pilot_weight_range_kg": [65, 120]
-            }
-          ]
-        }
-      ]
+      "brand": "Moyes Delta Gliders",
+      "model": {
+        "name": "Litesport 4",
+        "category": "Intermedio-alto",
+        "image_filename": "moyes_litesport_4.jpg",
+        "image_url": "https://www.moyes.com.au/images/stories/litesport/litesport4.jpg"
+      }
     },
     {
       "brand": "Drachenbau Josef Guggenmos",
-      "models": [
-        {
-          "name": "Bullet",
-          "category": "Competición",
-          "versions": [
-            {
-              "version": "Bullet Cut",
-              "wing_area_m2": 13.2,
-              "aspect_ratio": 9.0,
-              "pilot_weight_range_kg": [72, null],
-              "type": "kingpost"
-            },
-            {
-              "version": "Bullet Cut S",
-              "wing_area_m2": 11.3,
-              "aspect_ratio": 9.0,
-              "pilot_weight_range_kg": [62, null],
-              "type": "kingpost"
-            },
-            {
-              "version": "Bullet RCS (topless)",
-              "wing_area_m2": 13.2,
-              "aspect_ratio": 9.0,
-              "pilot_weight_range_kg": [70, null],
-              "type": "topless"
-            },
-            {
-              "version": "Bullet RCS-M (topless mediana)",
-              "wing_area_m2": 11.3,
-              "aspect_ratio": 9.0,
-              "pilot_weight_range_kg": [62, null],
-              "type": "topless"
-            }
-          ]
-        }
-      ]
+      "model": {
+        "name": "Bullet Cut",
+        "category": "Competición",
+        "wing_area_m2": 13.2,
+        "aspect_ratio": 9.0,
+        "pilot_weight_range_kg": [72, null],
+        "type": "kingpost",
+        "image_filename": "guggenmos_bullet_cut.jpg",
+        "image_url": null
+      }
     },
     {
       "brand": "Airborne Windsports",
-      "models": [
-        {
-          "name": "Fun",
-          "category": "Iniciación / recreacional / escuela",
-          "versions": [
-            {
-              "version": "Fun 160",
-              "wing_area_m2": 15.6,
-              "pilot_weight_range_kg": [60, null],
-              "aspect_ratio": 5.6,
-              "type": "single-surface"
-            },
-            {
-              "version": "Fun 190",
-              "wing_area_m2": 18.4,
-              "pilot_weight_range_kg": [70, null],
-              "aspect_ratio": 5.51,
-              "type": "single-surface"
-            },
-            {
-              "version": "Fun 220 (biplaza)",
-              "wing_area_m2": 21.2,
-              "pilot_weight_range_kg": [85, null],
-              "aspect_ratio": 5.62,
-              "type": "two-place"
-            }
-          ]
-        }
-      ]
+      "model": {
+        "name": "Fun 160",
+        "category": "Iniciación / Recreacional",
+        "wing_area_m2": 15.6,
+        "pilot_weight_range_kg": [60, null],
+        "aspect_ratio": 5.6,
+        "type": "single-surface",
+        "image_filename": "airborne_fun_160.jpg",
+        "image_url": null
+      }
+    },
+    {
+      "brand": "Aeros",
+      "model": {
+        "name": "DiscUS 14",
+        "category": "Alto rendimiento",
+        "image_filename": "aeros_discus_14.jpg",
+        "image_url": "https://www.aeros.com.ua/sites/default/files/styles/large/public/discus3.jpg"
+      }
+    },
+    {
+      "brand": "North Wing",
+      "model": {
+        "name": "Freedom 170",
+        "category": "Recreacional / Fácil",
+        "image_filename": "northwing_freedom_170.jpg",
+        "image_url": "https://northwing.com/images/hang-gliders/freedom/Freedom-hang-glider-1.jpg"
+      }
+    },
+    {
+      "brand": "La Mouette",
+      "model": {
+        "name": "Atlas",
+        "category": "Escuela / Iniciación",
+        "image_filename": "lamouette_atlas.jpg",
+        "image_url": "https://www.delta-club-82.com/bible/photos_ailes/atlas_id1.jpg"
+      }
+    },
+    {
+      "brand": "Finsterwalder-Charly",
+      "model": {
+        "name": "Funfex 17",
+        "category": "Recreacional / Montaje rápido",
+        "image_filename": "finsterwalder_funfex_17.jpg",
+        "image_url": "https://www.fliegermagazin.de/wp-content/uploads/2020/05/Funfex.jpg"
+      }
     }
   ]
 }
